@@ -1,0 +1,4 @@
+Flask
+gunicorn
+smtplib
+email-validator
