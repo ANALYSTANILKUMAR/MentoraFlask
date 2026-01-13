@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Welcome to Mentora Institute</h2>
+<p>Empowering Future-Ready Professionals in Data Analytics and Technology.</p>
+
+<video width="50%" controls>
+    <source src="{{ url_for('static', filename='videos/intro1.mp4') }}" type="video/mp4">
+    Your browser does not support video playback.
+</video>
+
+<h3>Courses Offered</h3>
+<ul>
+    <li>Python Programming for Data Analysis</li>
+    <li>SQL for Data Management</li>
+    <li>Excel for Business Insights</li>
+    <li>Power BI Dashboard Mastery</li>
+    <li>Machine Learning Basics for Business</li>
+</ul>
+{% endblock %}

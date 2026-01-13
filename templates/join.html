@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Join Mentora Institute</h2>
+<form method="POST">
+    <label>Name:</label><br>
+    <input type="text" name="name" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>Phone:</label><br>
+    <input type="text" name="phone" required><br><br>
+
+    <label>Course:</label><br>
+    <select name="course" required>
+        <option value="Python">Python</option>
+        <option value="SQL">SQL</option>
+        <option value="Excel">Excel</option>
+        <option value="Power BI">Power BI</option>
+        <option value="Machine Learning">Machine Learning</option>
+    </select><br><br>
+
+    <button type="submit">Submit</button>
+</form>
+{% endblock %}
