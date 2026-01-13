@@ -1,4 +1,5 @@
 Flask
-gunicorn
 smtplib
 email-validator
+Flask>=2.3.0
+gunicorn
